@@ -10,10 +10,7 @@ public class ContactPerson implements Serializable {
     private int img;
     private String sex;
 
-    public ContactPerson(String personName, String phoneNumber) {
-        this.personName = personName;
-        this.phoneNumber = phoneNumber;
-    }
+
 
     public ContactPerson(String personName, String phoneNumber, String status, int img) {
         this.personName = personName;
